@@ -1,0 +1,11 @@
+gitlab.com/loir402/bar v1.1.0 h1:VntceKGOvGEiCGeyyaik5NwU+4APgyS86IZ5/hm6uEc=
+gitlab.com/loir402/bar v1.1.0/go.mod h1:i/AbOUnjwb8HUqxgi4yndsuKTdcZ/ztfO7lLbu5P/2E=
+gitlab.com/loir402/baz v1.0.0 h1:ptLfwX2qCoPihymPx027lWKNlbu/nwLDgLcfGybmC/c=
+gitlab.com/loir402/baz v1.0.0/go.mod h1:uUDHCXWc4HmQdep9P0glAYFdIEcenfXwuHmBfAMaEgA=
+gitlab.com/loir402/corge v1.0.0/go.mod h1:xitAqlOH/wLiaSvVxYYkgqaQApnaionLWyrUAj6l2h4=
+gitlab.com/loir402/corge v1.0.1 h1:F1IcYLNkWk/NiFtvOlFrgii2ixrTWg89QarFKWXPRrs=
+gitlab.com/loir402/corge v1.0.1/go.mod h1:xitAqlOH/wLiaSvVxYYkgqaQApnaionLWyrUAj6l2h4=
+gitlab.com/loir402/foo v1.0.1 h1:6Dcvy69SCXzrGshVRDZzswqiA5Qm0n6Wt5VLOFtYF5o=
+gitlab.com/loir402/foo v1.0.1/go.mod h1:+IP28RhAFM6FlBl5iSYCGAJoG5GtZpUH4Mteu0ekyDY=
+gitlab.com/loir402/qux v1.0.0 h1:B1efJPpCgzevbS5THHliTj1owKfOi0Yo7tIaAm65n6w=
+gitlab.com/loir402/qux v1.0.0/go.mod h1:QexiArTQZcXRpFC3LLuGhk82aJoknf1n6c4WxlTeWdg=

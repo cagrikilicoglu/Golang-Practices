@@ -1,0 +1,15 @@
+# gitlab.com/loir402/bar v1.1.0
+## explicit
+gitlab.com/loir402/bar
+# gitlab.com/loir402/baz v1.0.0
+## explicit
+gitlab.com/loir402/baz
+# gitlab.com/loir402/corge v1.0.1
+## explicit
+gitlab.com/loir402/corge
+# gitlab.com/loir402/foo v1.0.1
+## explicit
+gitlab.com/loir402/foo
+# gitlab.com/loir402/qux v1.0.0
+## explicit
+gitlab.com/loir402/qux
