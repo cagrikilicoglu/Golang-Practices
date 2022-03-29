@@ -71,22 +71,22 @@ type User struct {
 func userCreate(w http.ResponseWriter, r *http.Request) {
 	var u User
 	if r.Header.Get("Content-Type") != "application/json" {
-		data, _ := json.Marshal(http_errors.NewRestError(http.StatusBadRequest, http_errors.ContentTypeError.Error()))
-		w.Write(data)
+		err := http_errors.ParseErrors((http_errors.NotAllowedImageHeader))
+		w.Write([]byte(err.Error()))
 		return
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&u)
 	if err != nil {
-		data, _ := json.Marshal(http_errors.NewRestError(http.StatusBadRequest, http_errors.CannotDecodeError.Error()))
-		w.Write(data)
+
+		w.Write([]byte(http_errors.ParseErrors(http_errors.CannotDecodeUser).Error()))
 		return
 	}
 
 	personData, err := json.Marshal(u)
 	if err != nil {
-		data, _ := json.Marshal(http_errors.NewRestError(http.StatusBadRequest, http_errors.CannotDecodeError.Error()))
-		w.Write(data)
+
+		w.Write([]byte(http_errors.ParseErrors(http_errors.BadRequest).Error()))
 		return
 	}
 	w.Write(personData)
@@ -127,8 +127,4 @@ func ShutdownServer(srv *http.Server, timeout time.Duration) {
 
 	log.Println("shutting down")
 	os.Exit(0)
-}
-
-func ErrorResponse(err error) {
-	return
 }
